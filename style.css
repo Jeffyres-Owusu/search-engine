@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  height: 100%;
+  width: 100%;
+  border-top: 18px solid rgba(119, 253, 228, 0.283);
+  border-bottom: 18px solid rgba(119, 253, 228, 0.283);
+  border-left: 4px solid rgba(119, 253, 228, 0.283);
+  border-right: 4px solid rgba(119, 253, 228, 0.283);
+}
+
+.container {
+  background-color: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  /* max-width: 80%; */
+  /* align-items: center;
+  justify-content: center; */
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 30px;
+  padding-bottom: 100px;
+}
+
+input {
+  font-size: 22px;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid silver;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+button {
+  padding: 8px 34px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+#input-button {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.icon {
+  position: absolute;
+  /* right: 270px;
+  top: 0; */
+  right: 920px;
+  top: -20px;
+  width: 24px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  column-gap: 15px;
+  row-gap: 20px;
+  /* height: 500px; */
+}
+
+/* .nav-searcgbutton {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.nav-searcgbutton #nav {
+  grid-column: 2/-1;
+}
+
+.search {
+  grid-column: 1/2;
+}
+
+button {
+  grid-column: 2/-1;
+  justify-content: end;
+} */
+
+input:hover,
+input:active {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-family: sans serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cb6a08;
+  color: #000;
+  cursor: pointer;
+}
+/*  this is one dose not work
+nav:hover {
+  color: rgba(40, 40, 86, 0.317);
+  background-color: #fff;
+  padding: 5px;
+} */
